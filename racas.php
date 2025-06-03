@@ -41,9 +41,14 @@
                     <tr>
                         <td><?php echo $raca->id_raca; ?></td>
                         <td><?php echo $raca->nome; ?></td>
-                        <a>
-                            <a href="#" class="btn btn-primary"> <i class="bi bi-pencil-square"></i> Editar </a> 
-                        <a href="#"class="btn btn-primary"> <i class="bi bi-trash"></i> Excluir </a> </td>
+                        <td>
+                            <form action="<?php echo htmlspecialchars("gerRaca.php") ?>" method="post" class="d-flex">
+                                <input type="hidden" name="idRaca" value="<?php echo $raca->id_raca ?>"><button
+                                    name="btnEditar" class="btn btn-primary btn-sm" type="submit"
+                                    onclick="return confirm('Tem certeza que deseja editar a raça?');"><i
+                                        class="bi bi-pencil-square"></i>
+                                </button>
+                            </form>
                     </tr>
                 <?php endforeach; ?>
             </tbody>
@@ -54,4 +59,5 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
