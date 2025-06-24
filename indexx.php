@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/baseSite.css">
+    <link rel="stylesheet" href="CSS/index.css">
     <link rel="shortcut icon" href="Images/Image.png" type="Images/x-icon">
 
     <title>Fazenda Pedacinho do céu - Cria e recria Gado de Corte</title>
@@ -13,11 +13,8 @@
 <body>
     <!-- nosso cabeçalho -->
     <header>
-        <img src="Images/Abertura.png" alt="Logo da Fazenda Pedacinho do céu">
-        <div class="empresa">
-            <h1> Fazenda Pedacinho do céu </h1>
-            <p>Especializada em Cria e Recria de Gado de Corte</p>
-        </div>
+        <h1> Fazenda Pedacinho do céu </h1>
+        <p>Especializada em Cria e Recria de Gado de Corte</p>
     </header>
     <!-- Menu de navegação -->
     <nav>
@@ -56,7 +53,7 @@
                     </div>
                 </div>
             </section>
-            <section id="estrutura">
+            <selection id="estrutura">
                 <div class="container">
                     <img src="Images/estrutura.png" alt="Estrutura da fazenda">
                     <div class="texto">
@@ -67,8 +64,8 @@
                         <li>Gestão eficiente do rebanho</li>
                     </div>
                 </div>
-            </section>
-            <section id="contato">
+            </selection>
+            <selection id="contato">
                 <div class="container">
                     <img src="Images/Contato01.png" alt="Informações para contato">
                     <div class="texto">
@@ -77,11 +74,11 @@
                         <p>Telefone: (11) 1234-5678</p>
                     </div>
                 </div>
-            </section>
+            </selection>
         </main>
         <!-- Finalizando o main -->
         <footer>
-            <?php require_once '_parts/_footer.php'; ?>
+            <p>&copy; 2025 Fazenda Pedacinho do céu - Todos os direitos reservados.</p>
         </footer>
     </div>
 </body>

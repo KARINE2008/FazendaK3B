@@ -1,0 +1,37 @@
+@import url('base.css');
+
+header {
+   display: flex;
+    justify-content: center;
+    background-color: var(--cor-fundo-escuro);
+    color: var(--cor-font-clara);
+    align-items: center;
+    gap: 50px;
+}
+
+header .empresa{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header img {
+    width: 150px;
+}
+
+
+
+
+
+
+
+
+
+@media  screen and (max-windth:600px) {
+    header{
+        flex-direction: column;
+    }
+    
+}

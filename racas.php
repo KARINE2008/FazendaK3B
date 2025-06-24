@@ -43,12 +43,20 @@
                         <td><?php echo $raca->nome; ?></td>
                         <td>
                             <form action="<?php echo htmlspecialchars("gerRaca.php") ?>" method="post" class="d-flex">
-                                <input type="hidden" name="idRaca" value="<?php echo $raca->id_raca ?>"><button
-                                    name="btnEditar" class="btn btn-primary btn-sm" type="submit"
+                                <input type="hidden" name="idRaca" value="<?php echo $raca->id_raca ?>">
+                                <button name="btnEditar" class="btn btn-primary btn-sm" type="submit"
                                     onclick="return confirm('Tem certeza que deseja editar a raça?');"><i
                                         class="bi bi-pencil-square"></i>
                                 </button>
                             </form>
+                            <form action="<?php echo htmlspecialchars("dbRaca.php") ?>" method="post" class="d-flex">
+                                <input type="hidden" name="idRaca" value="<?php echo $raca->id_raca ?>">
+                                <button name="btnDeletar" class="btn btn-danger btn-sm" type="submit"
+                                    onclick="return confirm('Tem certeza que deseja deletar raça?');">
+                                    <i class="bi bi-trash"></i>
+                                </button>
+                            </form>
+                        </td>
                     </tr>
                 <?php endforeach; ?>
             </tbody>
