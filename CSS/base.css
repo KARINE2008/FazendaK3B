@@ -58,3 +58,10 @@ footer a{
     height: 50px;
     justify-content: center;
 }
+
+.rede-social {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+}
