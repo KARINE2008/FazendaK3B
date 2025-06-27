@@ -22,7 +22,7 @@ header img {
 }
 
 .nav-custom {
-    background-color: var(--cor-fondo-escuro);
+    background-color: var(--cor-fundo-escuro);
 }
 
 .navbar-toggler-icon{
@@ -46,6 +46,12 @@ header img {
 
 
 
+@media screen and (max-width: 992px) {
+    .nav-link, .nav-link:hover {
+        box-shadow: none;
+        transform: none;
+    }
+}
 
 
 @media  screen and (max-winth:600px) {
