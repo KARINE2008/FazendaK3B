@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/baseSite.css">
     <link rel="shortcut icon" href="Images/Image.png" type="Images/x-icon">
-
     <title>Fazenda Pedacinho do céu - Cria e recria Gado de Corte</title>
 </head>
 
@@ -20,11 +19,29 @@
         </div>
     </header>
     <!-- Menu de navegação -->
-    <nav>
-        <a href="#sobre">Sobre</a>
-        <a href="#serviços">Atividade</a>
-        <a href="#estrutura">Estrutura</a>
-        <a href="#contato">Contato</a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#atidades">Atidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#estrutura">Estrutura</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
     <div>
         <main>
