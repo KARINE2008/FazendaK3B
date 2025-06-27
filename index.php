@@ -26,11 +26,11 @@
     </header>
 
     <!-- Menu de navegação -->
-    <nav class="navbar navbar-expand-lg nav-custom">
+    <nav class="navbar navbar-expand-lg nav-custom" data-bs-theme="dark">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <i class="bi bi-list fs-2"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
