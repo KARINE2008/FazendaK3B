@@ -4,22 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Seu CSS personalizado -->
     <link rel="stylesheet" href="CSS/baseSite.css">
-    <link rel="shortcut icon" href="Images/Image.png" type="Images/x-icon">
-    <title>Fazenda Pedacinho do céu - Cria e recria Gado de Corte</title>
+
+    <link rel="shortcut icon" href="Images/Image.png" type="image/x-icon">
+    <title>Fazenda Pedacinho do Céu - Cria e Recria Gado de Corte</title>
 </head>
 
 <body>
-    <!-- nosso cabeçalho -->
+    <!-- Cabeçalho -->
     <header>
-        <img src="Images/Abertura.png" alt="Logo da Fazenda Pedacinho do céu">
+        <img src="Images/Abertura.png" alt="Logo da Fazenda Pedacinho do Céu">
         <div class="empresa">
-            <h1> Fazenda Pedacinho do céu </h1>
+            <h1>Fazenda Pedacinho do Céu</h1>
             <p>Especializada em Cria e Recria de Gado de Corte</p>
         </div>
     </header>
+
     <!-- Menu de navegação -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg nav-custom">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,7 +38,7 @@
                         <a class="nav-link" href="#sobre">Sobre</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#atidades">Atidades</a>
+                        <a class="nav-link" href="#serviços">Atividades</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#estrutura">Estrutura</a>
@@ -43,64 +50,72 @@
             </div>
         </div>
     </nav>
-    <div>
-        <main>
-            <div class="dest">
-                Quantidade e Sustentabilidade na Produção de Gado de Corte!
-            </div>
 
-            <section id="sobre">
-                <div class="container">
-                    <img src="Images/sobrenos.png" alt="Sobre a propriedade">
-                    <div class="texto">
-                        <h2>Sobre Nós</h2>
-                        <p>Somos uma fazenda referenciada na criação e recria de gado de corte, utilizando práticas
-                            sustentáveis e manejo de alta qualidade.</p>
-                    </div>
+    <main>
+        <div class="dest">
+            Quantidade e Sustentabilidade na Produção de Gado de Corte!
+        </div>
+
+        <section id="sobre">
+            <div class="container">
+                <img src="Images/sobrenos.png" alt="Sobre a propriedade">
+                <div class="texto">
+                    <h2>Sobre Nós</h2>
+                    <p>Somos uma fazenda referenciada na criação e recria de gado de corte, utilizando práticas
+                        sustentáveis e manejo de alta qualidade.</p>
                 </div>
-            </section>
-            <section id="serviços">
-                <div class="container">
-                    <img src="Images/servicos01.png.avif" alt="Atividade de fazenda">
-                    <div class="texto">
-                        <h2>Atividades</h2>
-                        <ul>
-                            <li>Seleção Genética e Melhoramento</li>
-                            <li>Manejo Nutricional para Cria e Recria</li>
-                            <li>Sanidade Animal e Bem-Estar</li>
-                            <li>Integração Lavoura-Pecuária</li>
-                        </ul>
-                    </div>
+            </div>
+        </section>
+
+        <section id="serviços">
+            <div class="container">
+                <img src="Images/servicos01.png.avif" alt="Atividade de fazenda">
+                <div class="texto">
+                    <h2>Atividades</h2>
+                    <ul>
+                        <li>Seleção Genética e Melhoramento</li>
+                        <li>Manejo Nutricional para Cria e Recria</li>
+                        <li>Sanidade Animal e Bem-Estar</li>
+                        <li>Integração Lavoura-Pecuária</li>
+                    </ul>
                 </div>
-            </section>
-            <section id="estrutura">
-                <div class="container">
-                    <img src="Images/estrutura.png" alt="Estrutura da fazenda">
-                    <div class="texto">
-                        <h2>Nossa Estrutura</h2>
-                        <li>Contamos com pastagens de qualidade: </li>
-                        <li>Curral moderno </li>
-                        <li>Áreas de confinamento </li>
+            </div>
+        </section>
+
+        <section id="estrutura">
+            <div class="container">
+                <img src="Images/estrutura.png" alt="Estrutura da fazenda">
+                <div class="texto">
+                    <h2>Nossa Estrutura</h2>
+                    <ul>
+                        <li>Pastagens de qualidade</li>
+                        <li>Curral moderno</li>
+                        <li>Áreas de confinamento</li>
                         <li>Gestão eficiente do rebanho</li>
-                    </div>
+                    </ul>
                 </div>
-            </section>
-            <section id="contato">
-                <div class="container">
-                    <img src="Images/Contato01.png" alt="Informações para contato">
-                    <div class="texto">
-                        <h2>Contato</h2>
-                        <p>Email: contato@fazendanome.com</p>
-                        <p>Telefone: (11) 1234-5678</p>
-                    </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="container">
+                <img src="Images/Contato01.png" alt="Informações para contato">
+                <div class="texto">
+                    <h2>Contato</h2>
+                    <p>Email: contato@fazendanome.com</p>
+                    <p>Telefone: (11) 1234-5678</p>
                 </div>
-            </section>
-        </main>
-        <!-- Finalizando o main -->
-        <footer>
-            <?php require_once '_parts/_footer.php'; ?>
-        </footer>
-    </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <?php require_once '_parts/_footer.php'; ?>
+    </footer>
+
+    <!-- JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
