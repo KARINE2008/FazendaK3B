@@ -1,6 +1,6 @@
 <div class="r-linha">
     <div class="r-linha-item">
-        <img src="Images/estrutura.png" alt="">
+        <img src="Images/Abertura.png" alt="">
     </div>
     <div class="r-linha-item">
         <p>Contatos:</p>

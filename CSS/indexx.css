@@ -20,4 +20,22 @@ section{
     padding: 20px; /*Preenchimento interno*/
     border-radius: 12px; /*Borda arredondada*/
     background: linear-gradient(50deg, #180ae0a9, #0438a8, #097ad6); /*Gradiente de fundo*/
+
+}
+
+section h2{
+    text-align: center; /*Alinhamento do texto*/
+    font-family: var(--font-secundaria);
+    margin: 20px; /*Margem superior e inferior*/
+    border-bottom: 2px double #fff; /*Borda inferior*/
+    padding: 10px; /*Preenchimento interno*/
+}
+
+section .msn{
+    display: flex; /*Exibição flexível*/
+}
+
+section .msn img{
+    width: 50%; /*Largura de 50%*/
+    border-radius: 12px; /*Borda arredondada*/
 }
