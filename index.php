@@ -10,6 +10,7 @@
 
     <!-- Seu CSS personalizado -->
     <link rel="stylesheet" href="CSS/baseSite.css">
+    <link rel="stylesheet" href="CSS/indexx.css">
 
     <link rel="shortcut icon" href="Images/Image.png" type="image/x-icon">
     <title>Fazenda Pedacinho do Céu - Cria e Recria Gado de Corte</title>

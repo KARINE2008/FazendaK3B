@@ -1,0 +1,23 @@
+.dest{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../Images/indexx.png");
+    background-repeat: no-repeat;
+    background-position: center; /*Posição da imagem*/
+    background-size: cover; /*Tamanho da imagem*/
+    font-size: 24px; /*Tamanho da fonte*/
+    font-weight: initial; /*Letra em negrito*/
+    color: rgb(0, 0, 0); /*Cor do texto*/
+    text-shadow: 1px 1px 0 #fff /*Sombra do texto*/, 2px 2px 0 #1a05df; /*Sombra do texto*/
+    border-radius: 12px; /*Borda arredondada*/
+
+}
+
+section{
+    margin: 20px 0; /*Margem superior e inferior*/
+    padding: 20px; /*Preenchimento interno*/
+    border-radius: 12px; /*Borda arredondada*/
+    background: linear-gradient(50deg, #180ae0a9, #0438a8, #097ad6); /*Gradiente de fundo*/
+}
