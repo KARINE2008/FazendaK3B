@@ -1,15 +1,15 @@
-@import url('base.css');
+@import url('base.css'); 
 
-header {
-   display: flex;
-    justify-content: center;
-    background-color: var(--cor-fundo-escuro);
-    color: var(--cor-font-clara);
-    align-items: center;
-    gap: 50px;
+header { 
+   display: flex;                                                               /* Exibição flexível */
+    justify-content: center;                                                    /* Alinha os itens horizontalmente no centro */
+    background-color: var(--cor-fundo-escuro);                                  /* Cor de fundo do cabeçalho */
+    color: var(--cor-font-clara);                                               /* Cor do texto no cabeçalho */
+    align-items: center;                                                        /* Alinha os itens verticalmente no centro */
+    gap: 50px;                                                                  /* Espaçamento entre os itens */
 }
 
-header .empresa{
+header .empresa{                                                                /* Classe para o nome da empresa */
     display: flex;
     align-items: center;
     text-align: center;
@@ -19,7 +19,7 @@ header .empresa{
 
 header img {
     width: 100px;
-    border-radius: 600px; /*Borda arredondada*/
+    border-radius: 600px;                                                       /*Borda arredondada*/
 
 }
 

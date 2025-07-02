@@ -1,49 +1,59 @@
 .dest{
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url("../Images/indexx.png");
-    background-repeat: no-repeat;
-    background-position: center; /*Posição da imagem*/
-    background-size: cover; /*Tamanho da imagem*/
-    font-size: 24px; /*Tamanho da fonte*/
-    font-weight: initial; /*Letra em negrito*/
-    color: rgb(0, 0, 0); /*Cor do texto*/
-    text-shadow: 1px 1px 0 #fff /*Sombra do texto*/, 2px 2px 0 #1a05df; /*Sombra do texto*/
-    border-radius: 12px; /*Borda arredondada*/
+    height: 300px;                                                                          /*Altura da seção de destaque*/
+    display: flex;                                                                          /*Exibição flexível*/
+    justify-content: center;                                                                /*Alinhamento horizontal dos itens*/
+    align-items: center;                                                                    /*Alinhamento vertical dos itens*/
+    background-image: url("../Images/indexx.png");                                          /*Imagem de fundo da seção de destaque*/
+    background-repeat: no-repeat;                                                           /*Não repetir a imagem*/
+    background-position: center;                                                            /*Posição da imagem*/
+    background-size: cover;                                                                 /*Tamanho da imagem*/
+    font-size: 24px;                                                                        /*Tamanho da fonte*/
+    font-weight: initial;                                                                   /*Letra em negrito*/
+    color: rgb(0, 0, 0);                                                                  /*Cor do texto*/
+    text-shadow: 1px 1px 0 #fff /*Sombra do texto*/, 2px 2px 0 #1a05df;                 /*Sombra do texto*/
+    border-radius: 12px;                                                                    /*Borda arredondada*/
 
 }
 
-section{
-    margin: 20px 0; /*Margem superior e inferior*/
-    padding: 20px; /*Preenchimento interno*/
-    border-radius: 12px; /*Borda arredondada*/
-    background: linear-gradient(50deg, #180ae0a9, #0438a8, #097ad6); /*Gradiente de fundo*/
+section{                                                                                    /*Seção principal*/
+    margin: 20px 0;                                                                         /*Margem superior e inferior*/
+    padding: 20px;                                                                          /*Preenchimento interno*/
+    border-radius: 12px;                                                                    /*Borda arredondada*/
+    background: linear-gradient(50deg, #180ae0a9, #0438a8, #097ad6);                 /*Gradiente de fundo*/
 
 }
 
-section h2{
-    text-align: center; /*Alinhamento do texto*/
-    font-family: var(--font-secundaria);
-    margin: 20px; /*Margem superior e inferior*/
-    border-bottom: 2px double #fff; /*Borda inferior*/
-    padding: 10px; /*Preenchimento interno*/
+section h2{                                                                                 /*Título da seção*/
+    text-align: center;                                                                     /*Alinhamento do texto*/
+    font-family: var(--font-secundaria);                                                    /*Fonte secundária*/
+    margin: 20px;                                                                           /*Margem superior e inferior*/
+    border-bottom: 2px double #fff;                                                       /*Borda inferior*/
+    padding: 10px;                                                                          /*Preenchimento interno*/
 }
 
-section .msn{
-    display: flex; /*Exibição flexível*/
-    gap: 20px; /*Espaçamento entre os itens*/
-    align-items: center; /*Alinhamento dos itens*/
+section .msn{                                                                               /*Seção de mensagem*/
+    display: flex;                                                                          /*Exibição flexível*/
+    gap: 20px;                                                                              /*Espaçamento entre os itens*/
+    align-items: center;                                                                    /*Alinhamento dos itens*/
 }
 
-section .msn img{
-    width: 50%; /*Largura de 50%*/
-    border-radius: 12px; /*Borda arredondada*/
+section .msn img{                                                                           /*Imagem da seção de mensagem*/
+    width: 50%;                                                                             /*Largura de 50%*/
+    border-radius: 12px;                                                                    /*Borda arredondada*/
 }
 
-@media screen and (max-width: 600px) {
-    section .msn {
-        flex-direction: column; /* Direção da flexão para coluna */
+@media screen and (max-width: 600px) {                                                      /* Ajustes para telas pequenas */
+    main {                                                                                  /* Largura do conteúdo principal */
+        width: 100%;                                                                        /*Largura total em telas pequenas*/
     }
+    section .msn {                                                                          /* Seção de mensagem */
+        flex-direction: column;                                                             /* Direção da flexão para coluna */
+    }
+    .dest{                                                                                  /* Seção de destaque */
+        display: none;                                                                      /* Oculta a seção de destaque em telas pequenas */
+    }
+    section .mns img{                                                                       /* Imagem da seção de mensagem */
+        width: 100%;                                                                        /* Largura total da imagem */
+    }
+
 }

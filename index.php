@@ -68,7 +68,6 @@
 
         <section id="serviços">
             <div class="container">
-                <img src="Images/servicos01.png.avif" alt="Atividade de fazenda">
                 <div class="texto">
                     <h2>Atividades</h2>
                     <ul>
@@ -83,7 +82,6 @@
 
         <section id="estrutura">
             <div class="container">
-                <img src="Images/estrutura.png" alt="Estrutura da fazenda">
                 <div class="texto">
                     <h2>Nossa Estrutura</h2>
                     <ul>
@@ -98,7 +96,6 @@
 
         <section id="contato">
             <div class="container">
-                <img src="Images/Contato01.png" alt="Informações para contato">
                 <div class="texto">
                     <h2>Contato</h2>
                     <p>Email: contato@fazendanome.com</p>
