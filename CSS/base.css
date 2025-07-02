@@ -55,7 +55,8 @@ footer .r-linha-item img {
 }
 
 footer .r-linha-item {
-    width: 400px;
+    width: 400px; /* Largura de cada item */
+    justify-content: center;   /* Alinha os itens no centro */ 
 }
 footer a{
     text-decoration: none;

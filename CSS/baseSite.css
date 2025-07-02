@@ -19,6 +19,8 @@ header .empresa{
 
 header img {
     width: 100px;
+    border-radius: 600px; /*Borda arredondada*/
+
 }
 
 .nav-custom {

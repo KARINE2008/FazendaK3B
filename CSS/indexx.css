@@ -33,9 +33,17 @@ section h2{
 
 section .msn{
     display: flex; /*Exibição flexível*/
+    gap: 20px; /*Espaçamento entre os itens*/
+    align-items: center; /*Alinhamento dos itens*/
 }
 
 section .msn img{
     width: 50%; /*Largura de 50%*/
     border-radius: 12px; /*Borda arredondada*/
+}
+
+@media screen and (max-width: 600px) {
+    section .msn {
+        flex-direction: column; /* Direção da flexão para coluna */
+    }
 }

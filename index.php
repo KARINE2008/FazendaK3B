@@ -98,13 +98,11 @@
 
         <section id="contato">
             <div class="container">
+                <img src="Images/Contato01.png" alt="Informações para contato">
                 <div class="texto">
                     <h2>Contato</h2>
-                    <img src="Images/Contato01.png" alt="Informações para contato">
-                    <div class="mns">
-                        <p>Email: contato@fazendanome.com</p>
-                        <p>Telefone: (11) 1234-5678</p>
-                    </div>
+                    <p>Email: contato@fazendanome.com</p>
+                    <p>Telefone: (11) 1234-5678</p>
                 </div>
             </div>
         </section>
